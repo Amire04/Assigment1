@@ -1,0 +1,64 @@
+
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>
+         The registration page.
+      </title>
+      <link rel="stylesheet" type="text/css" href="css/style2.css">
+      <link rel="stylesheet" type="text/css" href="css/style1.css">
+        <link rel="icon" href="favicon/favicon.ico" type="image/x-icon">
+        <title>Life Sport</title>
+   </head>
+   <body><div class="navbar">
+   <hr>
+   <div class="nav-items">
+      <a href="index.html"><img class="logo" src="image/logo.png"></a>  
+   </div>
+   <div class="nav-items">
+      <span class="sas">
+      <a class="sasa" href="acc.html">My Account</a></span>
+      <span class="sas">
+         <a class="sasa" href="basket.html">My Basket </a>
+      </span>
+      <span class="sas"><a class="sasa"href="wishlist.html">My Wishlist</span></a>
+   </div>   
+      <div class="nav-items nav-icons">   
+      <a href="#kok"><img class="imas"  src="image/contact.png" title="Contact Us"></a> 
+      <a href="AboutUs.html"><img class="imas"  src="image/about.png" title="About Us"> </a>
+      <a href="price.html"><img class="imas"  src="image/price.png" title="Prices"></a>
+         
+   </div>
+</div>
+<hr>
+<div class="bock" >
+      <div class="wrapper">
+
+            <h1 title="Registration form" class="reg">Registration</h1>
+            <label for="Login">Login</label><input type="text" id="login" name="Login" class="col" required placeholder="user1"><label class="required"></label>
+            <label for="Email">Email</label><input type="email" name="Email" required class="col" placeholder="sitehere@my.com"><label class="required"></label> 
+            
+            <label for="Password">Password</label><input type="Password" placeholder="123456" class="col" required><label class="required"></label>
+            <label for="CPassword">Confirm password</label><input type="Password" placeholder="123456" class="col" required><label class="required"></label>
+            <div>
+             <label for="gender" class="col" required>Sex:</label>
+            <input  type="radio" id="male" name="sex" value="male"/>M
+            <input type="radio" id="female" name="sex" value="female"/>F
+            </div>
+            <label >Which country do you live in?:</label>
+                
+                    <select name="country" id="country" class="col">
+                        <option >Select a country:</option>
+                        <option value="Kz">Kazakhstan</option>
+                        <option value="O.">Other</option>
+                    </select>
+            
+                    <input class="button" type="submit" value="Registration" onclick="Save()">
+
+         </form>
+           
+      </div>
+</div>
+
+   </body>
+</html>

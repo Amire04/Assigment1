@@ -1,0 +1,36 @@
+
+
+.grid {
+  margin-top: 90px;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 1500px;
+  width: 100%;
+  background-color: black;
+}
+.a {
+  background-color: white;
+}
+
+.text-set {
+  margin-left: 200px;
+  padding-top: 15px;
+}
+.reco {
+  padding-top: 70px;
+  margin-left: 200px;
+}
+.products {
+  display: flex;
+  flex-direction: row;
+  padding-left: 200px;
+  grid-template-columns: 0fr 0fr 1fr;
+}
+.image {
+  width: 170px;
+  padding-top: 20px;
+  padding-left: 15px;
+
+  height: 100%;
+}
